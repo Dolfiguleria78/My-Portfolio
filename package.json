@@ -1,0 +1,27 @@
+{
+  "name": "dolfi-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Modern portfolio website for Dolfi - Built by Aditya Anand",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx"
+  },
+  "dependencies": {
+    "framer-motion": "^12.39.0",
+    "lucide-react": "^1.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "stylelint": "^17.12.0",
+    "stylelint-config-standard": "^40.0.0",
+    "tailwindcss": "^4.3.0",
+    "vite": "^5.0.8"
+  }
+}
