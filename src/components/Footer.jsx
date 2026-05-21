@@ -41,7 +41,7 @@ export default function Footer() {
       <div className="footer-container">
         {/* Brand Section - Left */}
         <div className="footer-brand-section">
-          <div className="footer-brand-icon">A</div>
+          <div className="footer-brand-icon">DG</div>
           <div className="footer-brand-info">
             <h3 className="footer-brand-name">Dolfi Guleria</h3>
             <p className="footer-brand-subtitle">Full-Stack Developer & Tech Enthusiast</p>
