@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Download } from '../icons/lucideIcons'
+import profileImage from '../assets/profile.jpg'
 import './Hero.css'
 
 export default function Hero() {
@@ -93,7 +94,7 @@ export default function Hero() {
           <motion.div className="hero-image-wrapper" variants={itemVariants}>
             <div className="hero-image-container">
               <img
-                src="/src/assets/profile.jpg"
+                src={profileImage}
                 alt="Dolfi Guleria - Software Developer"
                 className="hero-image"
               />
