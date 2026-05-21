@@ -37,11 +37,12 @@ export default function AnimatedBackground() {
       }
 
       getColor() {
+        // Unified color palette matching the design system
         const colors = [
-          { r: 0, g: 212, b: 255 },    // Cyan
-          { r: 176, g: 38, b: 255 },   // Purple
-          { r: 0, g: 255, b: 204 },    // Cyan-green
-          { r: 255, g: 0, b: 110 },    // Pink
+          { r: 0, g: 212, b: 255 },    // Primary: Cyan (#00d4ff)
+          { r: 176, g: 38, b: 255 },   // Secondary: Purple (#b026ff)
+          { r: 251, g: 191, b: 36 },   // Tertiary: Amber/Gold (#fbbf24)
+          { r: 255, g: 0, b: 110 },    // Accent: Pink (#ff006e)
         ]
         return colors[this.index % colors.length]
       }

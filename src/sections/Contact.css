@@ -75,7 +75,7 @@
   content: '';
   position: absolute;
   inset: -15px;
-  background: linear-gradient(90deg, rgba(251, 191, 36, 0.15), transparent, rgba(245, 158, 11, 0.15));
+  background: linear-gradient(90deg, rgba(251, 191, 36, 0.15), transparent, rgba(251, 191, 36, 0.15));
   border-radius: 50%;
   filter: blur(40px);
   z-index: -1;
@@ -83,7 +83,7 @@
 }
 
 .contact-header .section-title .highlight {
-  background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 50%, #00d4ff 100%);
+  background: linear-gradient(90deg, var(--tertiary-accent) 0%, var(--secondary-accent) 50%, var(--primary-accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -194,7 +194,7 @@
 
 .submit-btn {
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  background: linear-gradient(135deg, var(--tertiary-accent), #f59e0b);
   color: #0a0e17;
   border: none;
   border-radius: 50px;
@@ -261,7 +261,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   transition: all 0.3s ease;
 }
 
@@ -291,11 +291,11 @@
 }
 
 .info-card a:hover {
-  color: #fbbf24;
+  color: var(--tertiary-accent);
 }
 
 .external-icon {
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   flex-shrink: 0;
   transition: all 0.3s ease;
 }
@@ -336,7 +336,7 @@
   background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(245, 158, 11, 0.05));
   border: 1.5px solid rgba(251, 191, 36, 0.2);
   border-radius: 12px;
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   cursor: pointer;

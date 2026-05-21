@@ -87,7 +87,7 @@
 }
 
 .projects-header .section-title .highlight {
-  background: linear-gradient(90deg, #00d4ff 0%, #b026ff 50%, #fbbf24 100%);
+  background: linear-gradient(90deg, var(--primary-accent) 0%, var(--secondary-accent) 50%, var(--tertiary-accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -179,7 +179,7 @@
   right: 1rem;
   background: linear-gradient(135deg, rgba(251, 191, 36, 0.2), rgba(245, 158, 11, 0.1));
   border: 1px solid rgba(251, 191, 36, 0.4);
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   padding: 0.3rem 0.7rem;
   border-radius: 20px;
   font-size: 0.7rem;
@@ -208,7 +208,7 @@
 }
 
 .command-symbol {
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   font-weight: 700;
 }
 
@@ -309,7 +309,7 @@
   background: linear-gradient(135deg, rgba(251, 191, 36, 0.15), rgba(245, 158, 11, 0.1));
   border: 1.5px solid rgba(251, 191, 36, 0.4);
   border-radius: 12px;
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   cursor: pointer;
   position: relative;
@@ -374,7 +374,7 @@
 }
 
 .project-card:hover .project-title {
-  background: linear-gradient(135deg, #fbbf24, #fcd34d);
+  background: linear-gradient(135deg, var(--tertiary-accent), #fcd34d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -410,7 +410,7 @@
 }
 
 .feature-icon {
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   font-weight: 700;
   font-size: 0.75rem;
   flex-shrink: 0;
@@ -439,7 +439,7 @@
   border: 1px solid rgba(251, 191, 36, 0.3);
   border-radius: 20px;
   font-size: 0.6rem;
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   font-weight: 600;
   letter-spacing: 0.2px;
@@ -473,7 +473,7 @@
   background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(245, 158, 11, 0.05));
   border: 1px solid rgba(251, 191, 36, 0.3);
   border-radius: 8px;
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   font-size: 0.7rem;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -504,7 +504,7 @@
   background: linear-gradient(135deg, rgba(251, 191, 36, 0.15), rgba(245, 158, 11, 0.1));
   border: 1.5px solid rgba(251, 191, 36, 0.4);
   border-radius: 12px;
-  color: #fbbf24;
+  color: var(--tertiary-accent);
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   position: relative;

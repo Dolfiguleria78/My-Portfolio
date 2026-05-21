@@ -152,7 +152,7 @@
 
 .skill-percentage {
   font-size: 0.9rem;
-  color: #00d4ff;
+  color: var(--primary-accent);
   font-weight: 700;
 }
 
@@ -165,7 +165,7 @@
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #00d4ff, #b026ff);
+  background: linear-gradient(90deg, var(--primary-accent), var(--secondary-accent));
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 212, 255, 0.6);
 }
@@ -190,7 +190,7 @@
 .cta-container h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  background: linear-gradient(135deg, #00d4ff 0%, #b026ff 100%);
+  background: linear-gradient(135deg, var(--primary-accent) 0%, var(--secondary-accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -240,7 +240,7 @@
 }
 
 .content-box h2 {
-  color: #00d4ff;
+  color: var(--primary-accent);
   margin-bottom: 15px;
   font-size: 1.4rem;
 }
@@ -269,7 +269,7 @@
 
 .skill-list li::before {
   content: '→';
-  color: #00d4ff;
+  color: var(--primary-accent);
   margin-right: 12px;
   font-weight: bold;
 }
@@ -337,7 +337,7 @@
 .category-badge {
   display: inline-block;
   background: rgba(0, 212, 255, 0.1);
-  color: #00d4ff;
+  color: var(--primary-accent);
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -386,7 +386,7 @@
 }
 
 .info-box h3 {
-  color: #00d4ff;
+  color: var(--primary-accent);
   margin-bottom: 12px;
   font-size: 1.1rem;
 }
@@ -397,12 +397,12 @@
 }
 
 .info-box a {
-  color: #00d4ff;
+  color: var(--primary-accent);
   transition: all 0.3s ease;
 }
 
 .info-box a:hover {
-  color: #b026ff;
+  color: var(--secondary-accent);
   text-shadow: 0 0 10px rgba(176, 38, 255, 0.5);
 }
 
@@ -529,7 +529,7 @@
 .category-badge {
   display: inline-block;
   background: rgba(0, 255, 204, 0.1);
-  color: #00ffcc;
+  color: var(--accent-cyan-alt);
   padding: 5px 12px;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -571,12 +571,12 @@
 }
 
 .info-box:hover {
-  border-color: #00ffcc;
+  border-color: var(--accent-cyan-alt);
   box-shadow: 0 10px 30px rgba(0, 255, 204, 0.1);
 }
 
 .info-box h3 {
-  color: #00ffcc;
+  color: var(--accent-cyan-alt);
   margin-bottom: 10px;
   font-size: 1.1rem;
 }
@@ -586,7 +586,7 @@
 }
 
 .info-box a {
-  color: #00ffcc;
+  color: var(--accent-cyan-alt);
   transition: all 0.3s ease;
 }
 
@@ -610,7 +610,7 @@
 }
 
 .social-links a:hover {
-  background: #00ffcc;
+  background: var(--accent-cyan-alt);
   color: #0b0f1a;
 }
 
@@ -628,7 +628,7 @@
 
 .form-group label {
   display: block;
-  color: #00ffcc;
+  color: var(--accent-cyan-alt);
   margin-bottom: 8px;
   font-weight: 500;
 }

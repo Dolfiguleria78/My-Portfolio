@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
 
-/* Root variables */
+/* Root variables - Unified Color Palette */
 :root {
+  /* Primary Accents */
+  --primary-accent: #00d4ff;      /* Bright Cyan */
+  --secondary-accent: #b026ff;    /* Purple */
+  --tertiary-accent: #fbbf24;     /* Amber/Gold */
+  --accent-pink: #ff006e;         /* Magenta */
+  --accent-cyan-alt: #00ffcc;     /* Cyan-Green (secondary cyan) */
+  
+  /* Neon Effects (for compatibility) */
   --neon-blue: #00d4ff;
   --neon-purple: #b026ff;
   --neon-cyan: #00ffcc;
   --neon-pink: #ff006e;
+  
+  /* Backgrounds */
   --bg-dark: #0b0f1a;
   --bg-darker: #030608;
 }
@@ -69,7 +79,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00ffcc;
+  background: var(--accent-cyan-alt);
   border-radius: 5px;
 }
 
@@ -109,7 +119,7 @@ section {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #00d4ff 0%, #b026ff 100%);
+  background: linear-gradient(135deg, var(--primary-accent) 0%, var(--secondary-accent) 100%);
   color: #0b0f1a;
   font-weight: 600;
   border-radius: 8px;
@@ -124,8 +134,8 @@ section {
 }
 
 .btn-secondary {
-  border: 2px solid #00d4ff;
-  color: #00d4ff;
+  border: 2px solid var(--primary-accent);
+  color: var(--primary-accent);
   font-weight: 600;
   border-radius: 8px;
   padding: 10px 22px;
@@ -133,7 +143,7 @@ section {
 }
 
 .btn-secondary:hover {
-  background: #00d4ff;
+  background: var(--primary-accent);
   color: #0b0f1a;
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
 }
@@ -176,7 +186,7 @@ section {
 }
 
 .section-title .highlight {
-  background: linear-gradient(90deg, #00d4ff 0%, #b026ff 50%, #00ffcc 100%);
+  background: linear-gradient(90deg, var(--primary-accent) 0%, var(--secondary-accent) 50%, var(--accent-cyan-alt) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
