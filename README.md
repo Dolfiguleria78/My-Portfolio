@@ -22,9 +22,11 @@ my-portfolio/
 ├── src/
 │   ├── components/           # Reusable React components
 │   │   ├── Header.jsx       # Navigation header
+│   │   ├── Footer.jsx       # Footer component
 │   │   ├── Button.jsx       # Reusable button component
 │   │   ├── HeroSection.jsx  # Hero section
 │   │   ├── Header.css
+│   │   ├── Footer.css
 │   │   ├── Button.css
 │   │   └── HeroSection.css
 │   ├── pages/               # Page components
