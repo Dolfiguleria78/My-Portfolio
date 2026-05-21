@@ -132,7 +132,7 @@ export default function Contact() {
                   </div>
                   <div className="info-content">
                     <h4>Location</h4>
-                    <p>Mullana, Haryana, India</p>
+                    <p>Kangra, Himachal Pradesh, India</p>
                   </div>
                   <ExternalLink size={20} className="external-icon" />
                 </div>
@@ -152,7 +152,7 @@ export default function Contact() {
                   </div>
                   <div className="info-content">
                     <h4>Phone</h4>
-                    <a href="tel:+919334823399">+91-9334823399</a>
+                    <a href="tel:+917876834865">+91-7876834865</a>
                   </div>
                   <ExternalLink size={20} className="external-icon" />
                 </div>
@@ -163,7 +163,7 @@ export default function Contact() {
                   <div className="info-content">
                     <h4>LinkedIn</h4>
                     <a href="https://linkedin.com/in/dolfi-guleria-a53201292" target="_blank" rel="noopener noreferrer">
-                      /in/aditya-26-anand
+                      /in/dolfi-guleria-a53201292
                     </a>
                   </div>
                   <ExternalLink size={20} className="external-icon" />

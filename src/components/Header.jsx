@@ -23,8 +23,8 @@ export default function Header() {
   ]
 
   const socialLinks = [
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/dolfi', icon: LinkIcon },
-    { name: 'GitHub', url: 'https://github.com/dolfiguleria', icon: Share2 },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/dolfi-guleria-a53201292', icon: LinkIcon },
+    { name: 'GitHub', url: 'https://github.com/Dolfiguleria78', icon: Share2 },
   ]
 
   const sidebarVariants = {

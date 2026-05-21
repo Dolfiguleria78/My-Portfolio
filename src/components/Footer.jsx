@@ -24,16 +24,16 @@ export default function Footer() {
   ]
 
   const contactInfo = [
-    { icon: Phone, label: '+91 1234567890' },
-    { icon: Mail, label: 'aditya@example.com' },
-    { icon: MapPin, label: 'India' },
+    { icon: Phone, label: '+91 7876834865' },
+    { icon: Mail, label: 'dolfiguería130@gmail.com' },
+    { icon: MapPin, label: 'Kangra, Himachal Pradesh' },
     { icon: Phone, label: 'Mon - Fri / 9am-10pm' },
   ]
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', url: 'https://github.com/adityaanand' },
-    { icon: Linkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/aditya-anand' },
-    { icon: Mail, label: 'Email', url: 'mailto:aditya@example.com' },
+    { icon: Github, label: 'GitHub', url: 'https://github.com/Dolfiguleria78' },
+    { icon: Linkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/dolfi-guleria-a53201292' },
+    { icon: Mail, label: 'Email', url: 'mailto:dolfiguería130@gmail.com' },
   ]
 
   return (
@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="footer-brand-section">
           <div className="footer-brand-icon">A</div>
           <div className="footer-brand-info">
-            <h3 className="footer-brand-name">Aditya Anand</h3>
+            <h3 className="footer-brand-name">Dolfi Guleria</h3>
             <p className="footer-brand-subtitle">Full-Stack Developer & Tech Enthusiast</p>
           </div>
           <p className="footer-brand-description">
